@@ -1,0 +1,26 @@
+body{
+    margin: 0 auto;
+    background: #f1f1f1;
+}
+
+#global
+{
+    width: 842px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: #333 0px 0px 10px;
+    background-color: #FFF;
+}
+
+ @media screen and (max-width : 480px) and (max-width: 767px) {
+  
+  /* Force table to not be like tables anymore */
+    #global
+    {
+        width: 400px;
+        margin: 0 auto;
+        padding: 0px;
+        box-shadow: #333 0px 0px 10px;
+        background-color: #FFF;
+    }
+  }
